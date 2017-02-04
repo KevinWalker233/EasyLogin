@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Over Watch",
+  "name": "Over Watch",
+  "description": "Over Watch.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "null",
+  "updateUrl": "",
+  "authorList": ["KevinWalker"],
+  "credits": "Over Watch",
+  "logoFile": "assets/overwatch/textures/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

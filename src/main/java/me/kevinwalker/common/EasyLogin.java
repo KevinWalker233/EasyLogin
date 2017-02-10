@@ -2,6 +2,7 @@ package me.kevinwalker.common;
 
 import org.lwjgl.input.Keyboard;
 
+import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -26,6 +27,7 @@ public class EasyLogin {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		new ConfigLoader(event);
+		ClientRegistry.registerKeyBinding(logingui);
 	}
 
 	@EventHandler
